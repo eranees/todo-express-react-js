@@ -59,49 +59,7 @@ package-lock.json      # Lock file for dependency versions
 
 ### Installation
 
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/eranees/todo-express-react-js.git
-   cd todo-express-react-js
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Setup environment variables**
-
-   - Copy `.env.sample` to `.env`
-     ```bash
-     cp .env.sample .env
-     ```
-   - Fill in the required environment variables (database connection details, etc.).
-
-4. **Run database migrations**
-
-   ```bash
-   npm run typeorm migration:run
-   ```
-
-5. **Start the application**
-   ```bash
-   npm start
-   ```
-
----
-
-## Available Scripts
-
-- `npm start`: Starts the application.
-- `npm run dev`: Starts the application in development mode (with hot reloading).
-- `npm run test`: Runs the test suite.
-- `npm run lint`: Lints the codebase.
-- `npm run typeorm migration:run`: Runs database migrations.
-
----
+### check frontend and backend readme files for installation
 
 ## Contributing
 
